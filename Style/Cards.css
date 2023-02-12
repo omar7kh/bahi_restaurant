@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Unbounded", cursive;
+  overflow-x: hidden;
+  background-color: #2b4353;
+  height: 150vh;
+}
+
+/* Width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #2b4353;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e8630a;
+  border-radius: 20px;
+  border: 2px solid #e8630a;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2b4353;
+}
+
+.main-nav {
+  padding: 15px;
+  width: 100%;
+  height: 40px;
+  padding-bottom: 17px;
+  padding-top: 10px;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.452);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+/* Navbar-content */
+.navbar {
+  display: flex;
+}
+
+/* Nav-link */
+.a-nav {
+  color: #e8630a;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 900;
+  padding: 20px 15px;
+  text-shadow: 0px 0px 7px black;
+}
+
+/* Link-hover */
+.a-nav:hover {
+  background-color: #9cd3d3d5;
+  border-bottom: 5px solid #e8630a;
+  color: #2b4353;
+  text-shadow: none;
+}
+
+/* Icon */
+i {
+  color: #e8630a;
+  font-size: 50px;
+  position: absolute;
+  left: 30px;
+  top: 10px;
+}
+
+h2 {
+  color: #e8630a;
+  font-size: 80px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 70px;
+}
+
